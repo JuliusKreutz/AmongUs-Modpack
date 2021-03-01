@@ -11,10 +11,8 @@ Chose one
 ## Mods
 - 4 new Roles (Sheriff, Jester, Medic and Engineer)
 - Some new colors to chose from
-- Changeable keybindings
 - Anonymous impostor gamemode
 
 ## Sources
 - [ExtraRoles by NotHunter101](https://github.com/NotHunter101/ExtraRolesAmongUs)
-- [CustomKeyBind by Herysia](https://github.com/Herysia/CustomKeyBinds)
 - [AnonymousImpostorMod by Wunax](https://github.com/Wunax/Among-Us-Anonymous-Impostors-Mod)
