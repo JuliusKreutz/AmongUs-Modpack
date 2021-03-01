@@ -734,9 +734,9 @@
             </summary>
         </member>
         <member name="M:BepInEx.BepInPlugin.#ctor(System.String,System.String,System.String)">
-            <param name="guid">The unique identifier of the plugin. Should not change between plugin versions.</param>
-            <param name="name">The user friendly name of the plugin. Is able to be changed between versions.</param>
-            <param name="version">The specific version of the plugin.</param>
+            <param name="GUID">The unique identifier of the plugin. Should not change between plugin versions.</param>
+            <param name="Name">The user friendly name of the plugin. Is able to be changed between versions.</param>
+            <param name="Version">The specific version of the plugin.</param>
         </member>
         <member name="T:BepInEx.BepInDependency">
             <summary>
