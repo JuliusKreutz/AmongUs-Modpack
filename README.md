@@ -9,10 +9,9 @@ Chose one
 [releases page](https://github.com/JuliusKreutz/AmongUs-Modpack/releases)
 
 ## Mods
-- 4 new Roles (Sheriff, Jester, Medic and Engineer)
+- 3 new Roles (Sheriff, Jester and Cleaner)
 - Some new colors to chose from
-- Anonymous impostor gamemode
+- Confusion gamemode
 
 ## Sources
-- [ExtraRoles by NotHunter101](https://github.com/NotHunter101/ExtraRolesAmongUs)
-- [AnonymousImpostorMod by Wunax](https://github.com/Wunax/Among-Us-Anonymous-Impostors-Mod)
+- [Cheep yt mods](https://cheep-yt.com/)
