@@ -15,3 +15,4 @@ Chose one
 
 ## Sources
 - [Cheep yt mods](https://cheep-yt.com/)
+- [Crowded Sheriff by Galster-dev](https://github.com/Galster-dev/CrowdedSheriff)
