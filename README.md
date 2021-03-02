@@ -10,7 +10,7 @@ Chose one
 
 ## Mods
 - 3 new Roles (Sheriff, Jester and Cleaner)
-- Some new colors to chose from
+- Some cool new colors to chose from
 - Confusion gamemode
 
 ## Sources
