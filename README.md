@@ -9,10 +9,8 @@ Chose one
 [releases page](https://github.com/JuliusKreutz/AmongUs-Modpack/releases)
 
 ## Mods
-- 3 new Roles (Sheriff, Jester and Cleaner)
-- Some cool new colors to chose from
-- Confusion gamemode
+- A lot of roles
+- Some new textures
 
 ## Sources
-- [Cheep yt mods](https://cheep-yt.com/)
-- [Crowded Sheriff by Galster-dev](https://github.com/Galster-dev/CrowdedSheriff)
+- [The other roles by Mxnority](https://amodsus.com/resources/the-other-roles.88/)
