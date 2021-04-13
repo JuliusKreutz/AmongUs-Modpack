@@ -14,5 +14,5 @@ For Linux (Proton) users: [Edit DLL overrides to load BepInEx into your game](ht
 - A lot of roles
 - Some new textures
 
-## Source
-- [AmongUs-Modpack-Source](https://github.com/JuliusKreutz/AmongUs-Modpack-Source)
+## Sources
+[The Other Roles by Eisbison](https://github.com/Eisbison/TheOtherRoles)
