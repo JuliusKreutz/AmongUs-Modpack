@@ -13,6 +13,7 @@ For Linux (Proton) users: [Edit DLL overrides to load BepInEx into your game](ht
 ## Mods
 - A lot of roles
 - Some new textures
+- New colors!!
 
 ## Sources
 [The Other Roles by Eisbison](https://github.com/Eisbison/TheOtherRoles)
