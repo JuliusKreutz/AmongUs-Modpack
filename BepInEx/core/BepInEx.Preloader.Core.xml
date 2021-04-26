@@ -4,6 +4,33 @@
         <name>BepInEx.Preloader.Core</name>
     </assembly>
     <members>
+        <member name="T:BepInEx.Preloader.Core.EnvVars">
+            <summary>
+                Doorstop environment variables, passed into the BepInEx preloader.
+                <para>https://github.com/NeighTools/UnityDoorstop/wiki#environment-variables</para>
+            </summary>
+        </member>
+        <member name="P:BepInEx.Preloader.Core.EnvVars.DOORSTOP_INVOKE_DLL_PATH">
+            <summary>
+                Path to the assembly that was invoked via Doorstop. Contains the same value as in "targetAssembly" configuration
+                option in the config file.
+            </summary>
+        </member>
+        <member name="P:BepInEx.Preloader.Core.EnvVars.DOORSTOP_MANAGED_FOLDER_DIR">
+            <summary>
+                Full path to the game's "Managed" folder that contains all the game's managed assemblies
+            </summary>
+        </member>
+        <member name="P:BepInEx.Preloader.Core.EnvVars.DOORSTOP_PROCESS_PATH">
+            <summary>
+                Full path to the game executable currently running.
+            </summary>
+        </member>
+        <member name="P:BepInEx.Preloader.Core.EnvVars.DOORSTOP_DLL_SEARCH_DIRS">
+            <summary>
+            Array of paths where Mono searches DLLs from before assembly resolvers are invoked.
+            </summary>
+        </member>
         <member name="T:BepInEx.Preloader.Core.Logging.PreloaderConsoleListener">
             <summary>
                 Log listener that listens to logs during preloading time and buffers messages for output in Unity logs later.
@@ -80,19 +107,19 @@
             </summary>
             <param name="directory">Directory to search patcher DLLs from.</param>
         </member>
-        <member name="M:BepInEx.Preloader.Core.AssemblyPatcher.LoadAssemblyDirectory(System.String)">
+        <member name="M:BepInEx.Preloader.Core.AssemblyPatcher.LoadAssemblyDirectories(System.String[])">
             <summary>
-                Adds all .dll assemblies in a directory to be patched and loaded by this patcher instance. Non-managed assemblies
+                Adds all .dll assemblies in given directories to be patched and loaded by this patcher instance. Non-managed assemblies
                 are skipped.
             </summary>
-            <param name="directory">The directory to search.</param>
+            <param name="directories">The directories to search.</param>
         </member>
-        <member name="M:BepInEx.Preloader.Core.AssemblyPatcher.LoadAssemblyDirectory(System.String,System.String[])">
+        <member name="M:BepInEx.Preloader.Core.AssemblyPatcher.LoadAssemblyDirectories(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String})">
             <summary>
-                Adds all assemblies in a directory to be patched and loaded by this patcher instance. Non-managed assemblies are
+                Adds all assemblies in given directories to be patched and loaded by this patcher instance. Non-managed assemblies are
                 skipped.
             </summary>
-            <param name="directory">The directory to search.</param>
+            <param name="directories">The directory to search.</param>
             <param name="assemblyExtensions">The file extensions to attempt to load.</param>
         </member>
         <member name="M:BepInEx.Preloader.Core.AssemblyPatcher.TryLoadAssembly(System.String,Mono.Cecil.AssemblyDefinition@)">
